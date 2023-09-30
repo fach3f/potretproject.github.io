@@ -1,0 +1,277 @@
+body{
+    font-family: 'Crimson Pro', serif !important;
+}
+/* CSS untuk mengatur tulisan navbar ke kanan */
+.navbar-nav {
+    margin-left: auto; /* Mendorong elemen navbar-nav ke kanan */
+}
+.navbar-brand {
+    font-size: 50px; /* Ubah ukuran font navbar-brand jika diperlukan */
+    font-weight: bold; /* Tambahkan ketebalan font jika diperlukan */
+}
+.navbar-nav .nav-link {
+    font-size: large;
+    margin-right: 50px;
+}
+.container h2{
+  font-size: 60px;
+  color :rgba(0, 0, 0, 0.606);
+  font-weight: bolder;
+  direction: rtl;
+  margin-right: 290px;
+  padding-top: 100px;
+}
+.container h1 {
+  color :rgba(0, 0, 0, 0.606);
+  font-size: 60px;
+  font-weight: bolder;
+  direction: rtl;
+  margin-right: 300px;
+}
+.container{
+  margin-top: 50px;
+  background: linear-gradient(to right, #f6f1f1b8 50%, #f1eded 50%); 
+  position: absolute;
+  right: 50px;
+}
+.container p{
+  font-size: large;
+  direction: rtl;
+  margin-right: 300px;
+  color: rgb(211, 192, 69);
+}
+.container img {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: -50px;
+  max-width: 50%; 
+  height: auto; 
+}
+.about{
+  background: linear-gradient(to right,#f1eded 50%, #f6f1f1b8 50%);
+  padding-bottom: 150px;
+}
+.Aboutme{
+  text-align: center;
+  margin-top: 600px;
+  margin-bottom: 50px;
+}
+.about img{
+
+  max-width: 20%;
+  margin-left: 200px;
+  position: relative;
+}
+.about p{
+  margin-right: 100px;
+  padding-top: 100px;
+  direction: rtl;
+  text-align: right;
+  font-size: larger;
+  color: rgba(0, 0, 0, 0.488);
+}
+.production1{
+  position: relative;
+}
+.production1 h1{
+  text-align: center;
+  margin-top: 100px;
+}
+.production1 img{
+  position: absolute;
+  max-width: 15%;
+}
+.production1 .float-start {
+  left: 20%; /* Mengatur gambar pertama ke kiri */
+}
+
+.production1 .mx-auto {
+  left: 50%; /* Mengatur gambar tengah ke tengah */
+  transform: translateX(-50%); /* Untuk menggeser gambar tengah ke posisi tengah yang sebenarnya */
+}
+
+.production1 .float-end {
+  right: 20%; 
+}
+.production2{
+  position: relative;
+}
+.production2 video{
+  margin-top: 500px;
+  width: 100%;
+}
+.production3 video{
+  margin-top: 0px;
+  width: 100%;
+}
+.production2 .float-start {
+  left: 20%; /* Mengatur gambar pertama ke kiri */
+}
+.production2 .mx-auto {
+  left: 50%; /* Mengatur gambar tengah ke tengah */
+  transform: translateX(-50%); /* Untuk menggeser gambar tengah ke posisi tengah yang sebenarnya */
+}
+.production2 .float-end {
+  right: 20%; 
+}
+.price{
+  text-align: center;
+}
+div.menu{
+  border: 5px solid black;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 33%;
+}
+
+.form-control{
+  margin-right: 900px;
+}
+.mb-3{
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+.custom-button {
+  font-size: 504px; /* Atur ukuran font tombol */
+  padding: 15px 30px; /* Atur padding tombol untuk memperlebarnya */
+}
+
+.in{
+  margin-top: 100px;
+  text-align: center;
+}
+@media screen and (max-width:1000px){
+  .container h2{
+    font-size: 40px;
+    color :rgba(0, 0, 0, 0.606);
+    font-weight: bolder;
+    direction: rtl;
+    margin-right: 110px;
+    padding-top: 100px;
+  }
+  .container h1 {
+    color :rgba(0, 0, 0, 0.606);
+    font-size: 40px;
+    font-weight: bolder;
+    direction: rtl;
+    margin-right: 110px;
+  }
+  .container img {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: -50px;
+    max-width: 50%; 
+    height: auto; 
+  }
+  .container p{
+    font-size: large;
+    direction: rtl;
+    margin-right: 100px;
+    color: rgb(211, 192, 69);
+  }
+}
+@media screen and (max-width:500px){
+  .container{
+    margin-top: 50px;
+    background: linear-gradient(to right, #f6f1f1b8 50%, #f1eded 50%); 
+    position: absolute;
+    right: 0px;
+  }
+  .about{
+    background: linear-gradient(to right,#ffffff 50%, #ffffffb8 50%);
+    margin-bottom: -100px;
+  }
+  .Aboutme{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 50px;
+  }
+  .production1 h1{
+    text-align: center;
+    margin-top: -350px;
+  }
+  .container h2{
+    font-size: 20px;
+    color :rgba(0, 0, 0, 0.606);
+    font-weight: bolder;
+    direction: rtl;
+    margin-right: 50px;
+    padding-top: 40px;
+  }
+  .container h1 {
+    color :rgba(0, 0, 0, 0.606);
+    font-size: 20px;
+    font-weight: bolder;
+    direction: rtl;
+    margin-right: 50px;
+  }
+  .container p{
+    font-size: medium;
+    direction: rtl;
+    margin-right: 50px;
+    color: rgb(211, 192, 69);
+  }
+  .container img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    max-width: 50%; 
+    height: auto; 
+  }
+  .about img{
+    max-width: 90%;
+    margin-left: 140px;
+    position: relative;
+  }
+  .about p{
+    margin-right: 100px;
+    padding-top: 240px;
+    direction: rtl;
+    text-align: right;
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.488);
+  }
+  .production1 img{
+    position: relative;
+    max-width: 45%;
+  }
+.rounded.mx-auto.d-block{
+  max-width: 30%;
+  margin-top: 250px;
+  position: absolute;
+}
+.rounded.float-start{
+  max-width: 30%;
+  position: absolute;
+}
+.rounded.float-end{
+  max-width: 30%;
+  position: absolute;
+}
+}
